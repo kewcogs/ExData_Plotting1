@@ -1,5 +1,5 @@
-# Create plot for Global Active Power histogram
-# Part 1 (of 4) Exploratory Data Analysis assignment 1
+# Create plot for Global Active Power vs Time
+# Part 2 (of 4) Exploratory Data Analysis assignment 1
 
 library(data.table)
 
