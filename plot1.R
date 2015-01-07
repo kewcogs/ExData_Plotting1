@@ -17,7 +17,7 @@ setnames(data, colnames(data), colnames(headers))
 # add combined DateTime column derived from Date and Time columns
 data[,"DateTime":=as.POSIXct(paste(Date,Time), format="%d/%m/%Y %T")]
 
-# drwa histogram to .png file
+# draw histogram to .png file
 png(filename="plot1.png", width=480, height=480) #set up graphics device
 hist(data$Global_active_power, 
      main="Global Active Power",
